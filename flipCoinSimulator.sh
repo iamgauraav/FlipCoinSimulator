@@ -5,7 +5,7 @@ headCount=0
 tailCount=0
 count=0
 
-for ((i=0;i<=n;i++))
+for ((i=0;i<=num;i++))
 do
 	randomCheck=$(($(($RANDOM%10))%2))
 	if [ $flip -eq 1 ]
